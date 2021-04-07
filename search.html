@@ -10,9 +10,10 @@
 </head>
 <body>
     <div id="gsa_search">
-        <form action="search.html" method="get"> 
-            <input type="text" name="query" /> 
-            <input type="submit" name="form_submit" value="Search" /> 
+        <form id="form1" action="search.html" method="get"> 
+            <input id="query" type="text" name="query" placeholder="Search..." autocomplete="off" autocorrect="off" autocapitalize="none" aria-label="Search term"/> 
+            <input id="search" type="hidden" name="search" value="https://thomassiopes.github.io/searchbar-project/list.html" />
+            <input class="submit" type="submit" name="form_submit" value="Search" />
           </form>
     </div>
     <div id="results"></div>

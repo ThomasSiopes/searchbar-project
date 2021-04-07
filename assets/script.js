@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){ 
     $('#gsa_search').gsaEmbed({
-        'searchUrls': 'https://youtube.com'
+        'searchUrls': 'https://thomassiopes.github.io/searchbar-project/list.html'
     });
 });
 
